@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA39DC41B2E278B0093650D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA39DC21B2E278B0093650D /* Main.storyboard */; };
+		9DA39DC61B2E278B0093650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA39DC51B2E278B0093650D /* Assets.xcassets */; };
+		9DA39DC91B2E278B0093650D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA39DC71B2E278B0093650D /* LaunchScreen.storyboard */; };
+		9DA39DD41B2E278B0093650D /* AndroidForiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DD31B2E278B0093650D /* AndroidForiOSTests.swift */; };
+		9DA39DDF1B2E278B0093650D /* AndroidForiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DDE1B2E278B0093650D /* AndroidForiOSUITests.swift */; };
+		9DA39DF51B2E28D00093650D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DF41B2E28D00093650D /* AppDelegate.swift */; };
+		9DA39DF91B2E292C0093650D /* SubwayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DF81B2E292C0093650D /* SubwayListViewController.swift */; };
+		9DA39DFB1B2E2D580093650D /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DFA1B2E2D580093650D /* TripList.swift */; };
+		9DA39DFD1B2E2D640093650D /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DFC1B2E2D640093650D /* Trip.swift */; };
+		9DA39DFF1B2E2D760093650D /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39DFE1B2E2D760093650D /* Prediction.swift */; };
+		9DA39E011B2E3B080093650D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA39E001B2E3B080093650D /* DataManager.swift */; };
+		9DA8A9131B685D75001AED57 /* TripDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8A9121B685D75001AED57 /* TripDetailHeaderView.swift */; };
+		E12ACFB51B66E24A0058B94D /* TripListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFB41B66E24A0058B94D /* TripListTableViewController.swift */; };
+		E12ACFB71B66E4CA0058B94D /* SubwayTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFB61B66E4C90058B94D /* SubwayTripTableViewCell.swift */; };
+		E12ACFB91B66E7D80058B94D /* TripDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFB81B66E7D80058B94D /* TripDetailTableViewController.swift */; };
+		E12ACFBE1B66F37C0058B94D /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = E12ACFBB1B66F37C0058B94D /* Blue.json */; };
+		E12ACFBF1B66F37C0058B94D /* Orange.json in Resources */ = {isa = PBXBuildFile; fileRef = E12ACFBC1B66F37C0058B94D /* Orange.json */; };
+		E12ACFC01B66F37C0058B94D /* Red.json in Resources */ = {isa = PBXBuildFile; fileRef = E12ACFBD1B66F37C0058B94D /* Red.json */; };
+		E12ACFFE1B67055A0058B94D /* UIViewControllerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFFD1B67055A0058B94D /* UIViewControllerColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DA39DD01B2E278B0093650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA39DB31B2E278B0093650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA39DBA1B2E278B0093650D;
+			remoteInfo = AndroidForiOS;
+		};
+		9DA39DDB1B2E278B0093650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA39DB31B2E278B0093650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA39DBA1B2E278B0093650D;
+			remoteInfo = AndroidForiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DA39DBB1B2E278B0093650D /* AndroidForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA39DC31B2E278B0093650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA39DC51B2E278B0093650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA39DC81B2E278B0093650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA39DCA1B2E278B0093650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA39DCF1B2E278B0093650D /* AndroidForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA39DD31B2E278B0093650D /* AndroidForiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidForiOSTests.swift; sourceTree = "<group>"; };
+		9DA39DD51B2E278B0093650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA39DDA1B2E278B0093650D /* AndroidForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA39DDE1B2E278B0093650D /* AndroidForiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidForiOSUITests.swift; sourceTree = "<group>"; };
+		9DA39DE01B2E278B0093650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA39DF41B2E28D00093650D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		9DA39DF81B2E292C0093650D /* SubwayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubwayListViewController.swift; path = "View Controllers/SubwayListViewController.swift"; sourceTree = "<group>"; };
+		9DA39DFA1B2E2D580093650D /* TripList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripList.swift; path = Data/TripList.swift; sourceTree = "<group>"; };
+		9DA39DFC1B2E2D640093650D /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = Data/Trip.swift; sourceTree = "<group>"; };
+		9DA39DFE1B2E2D760093650D /* Prediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prediction.swift; path = Data/Prediction.swift; sourceTree = "<group>"; };
+		9DA39E001B2E3B080093650D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Data/DataManager.swift; sourceTree = "<group>"; };
+		9DA8A9121B685D75001AED57 /* TripDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripDetailHeaderView.swift; path = Views/TripDetailHeaderView.swift; sourceTree = "<group>"; };
+		E12ACFB41B66E24A0058B94D /* TripListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripListTableViewController.swift; path = "View Controllers/TripListTableViewController.swift"; sourceTree = "<group>"; };
+		E12ACFB61B66E4C90058B94D /* SubwayTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubwayTripTableViewCell.swift; path = Cells/SubwayTripTableViewCell.swift; sourceTree = "<group>"; };
+		E12ACFB81B66E7D80058B94D /* TripDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripDetailTableViewController.swift; path = "View Controllers/TripDetailTableViewController.swift"; sourceTree = "<group>"; };
+		E12ACFBB1B66F37C0058B94D /* Blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Blue.json; path = ../../Data/v2.0/Blue.json; sourceTree = "<group>"; };
+		E12ACFBC1B66F37C0058B94D /* Orange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Orange.json; path = ../../Data/v2.0/Orange.json; sourceTree = "<group>"; };
+		E12ACFBD1B66F37C0058B94D /* Red.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Red.json; path = ../../Data/v2.0/Red.json; sourceTree = "<group>"; };
+		E12ACFFD1B67055A0058B94D /* UIViewControllerColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerColors.swift; path = Extensions/UIViewControllerColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA39DB81B2E278B0093650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DCC1B2E278B0093650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DD71B2E278B0093650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA39DB21B2E278B0093650D = {
+			isa = PBXGroup;
+			children = (
+				9DA39DBD1B2E278B0093650D /* AndroidForiOS */,
+				9DA39DD21B2E278B0093650D /* AndroidForiOSTests */,
+				9DA39DDD1B2E278B0093650D /* AndroidForiOSUITests */,
+				9DA39DBC1B2E278B0093650D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA39DBC1B2E278B0093650D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DBB1B2E278B0093650D /* AndroidForiOS.app */,
+				9DA39DCF1B2E278B0093650D /* AndroidForiOSTests.xctest */,
+				9DA39DDA1B2E278B0093650D /* AndroidForiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA39DBD1B2E278B0093650D /* AndroidForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DED1B2E279D0093650D /* Application */,
+				E12ACFB11B66D4150058B94D /* Cells */,
+				9DA39DEC1B2E27950093650D /* Data */,
+				E12ACFB01B66D3C40058B94D /* Extensions */,
+				9DA39DEF1B2E27BE0093650D /* View Controllers */,
+				9DA39DF01B2E27CE0093650D /* Views */,
+				9DA39DEE1B2E27AC0093650D /* Resources */,
+				9DA39DF11B2E27F00093650D /* Supporting Files */,
+			);
+			path = AndroidForiOS;
+			sourceTree = "<group>";
+		};
+		9DA39DD21B2E278B0093650D /* AndroidForiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DD31B2E278B0093650D /* AndroidForiOSTests.swift */,
+				9DA39DD51B2E278B0093650D /* Info.plist */,
+			);
+			path = AndroidForiOSTests;
+			sourceTree = "<group>";
+		};
+		9DA39DDD1B2E278B0093650D /* AndroidForiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DDE1B2E278B0093650D /* AndroidForiOSUITests.swift */,
+				9DA39DE01B2E278B0093650D /* Info.plist */,
+			);
+			path = AndroidForiOSUITests;
+			sourceTree = "<group>";
+		};
+		9DA39DEC1B2E27950093650D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DF21B2E28250093650D /* Managers */,
+				9DA39DF31B2E282A0093650D /* Model */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		9DA39DED1B2E279D0093650D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DF41B2E28D00093650D /* AppDelegate.swift */,
+				9DA39DC21B2E278B0093650D /* Main.storyboard */,
+				9DA39DC71B2E278B0093650D /* LaunchScreen.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9DA39DEE1B2E27AC0093650D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E12ACFBA1B66F3640058B94D /* JSON */,
+				9DA39DC51B2E278B0093650D /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9DA39DEF1B2E27BE0093650D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DF81B2E292C0093650D /* SubwayListViewController.swift */,
+				E12ACFB41B66E24A0058B94D /* TripListTableViewController.swift */,
+				E12ACFB81B66E7D80058B94D /* TripDetailTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9DA39DF01B2E27CE0093650D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8A9121B685D75001AED57 /* TripDetailHeaderView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9DA39DF11B2E27F00093650D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DCA1B2E278B0093650D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DA39DF21B2E28250093650D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39E001B2E3B080093650D /* DataManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		9DA39DF31B2E282A0093650D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA39DFA1B2E2D580093650D /* TripList.swift */,
+				9DA39DFC1B2E2D640093650D /* Trip.swift */,
+				9DA39DFE1B2E2D760093650D /* Prediction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E12ACFB01B66D3C40058B94D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E12ACFFD1B67055A0058B94D /* UIViewControllerColors.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E12ACFB11B66D4150058B94D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E12ACFB61B66E4C90058B94D /* SubwayTripTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E12ACFBA1B66F3640058B94D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E12ACFBB1B66F37C0058B94D /* Blue.json */,
+				E12ACFBC1B66F37C0058B94D /* Orange.json */,
+				E12ACFBD1B66F37C0058B94D /* Red.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA39DBA1B2E278B0093650D /* AndroidForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA39DE31B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOS" */;
+			buildPhases = (
+				9DA39DB71B2E278B0093650D /* Sources */,
+				9DA39DB81B2E278B0093650D /* Frameworks */,
+				9DA39DB91B2E278B0093650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidForiOS;
+			productName = AndroidForiOS;
+			productReference = 9DA39DBB1B2E278B0093650D /* AndroidForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DA39DCE1B2E278B0093650D /* AndroidForiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA39DE61B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOSTests" */;
+			buildPhases = (
+				9DA39DCB1B2E278B0093650D /* Sources */,
+				9DA39DCC1B2E278B0093650D /* Frameworks */,
+				9DA39DCD1B2E278B0093650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA39DD11B2E278B0093650D /* PBXTargetDependency */,
+			);
+			name = AndroidForiOSTests;
+			productName = AndroidForiOSTests;
+			productReference = 9DA39DCF1B2E278B0093650D /* AndroidForiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DA39DD91B2E278B0093650D /* AndroidForiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA39DE91B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOSUITests" */;
+			buildPhases = (
+				9DA39DD61B2E278B0093650D /* Sources */,
+				9DA39DD71B2E278B0093650D /* Frameworks */,
+				9DA39DD81B2E278B0093650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA39DDC1B2E278B0093650D /* PBXTargetDependency */,
+			);
+			name = AndroidForiOSUITests;
+			productName = AndroidForiOSUITests;
+			productReference = 9DA39DDA1B2E278B0093650D /* AndroidForiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA39DB31B2E278B0093650D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stephen Barnes";
+				TargetAttributes = {
+					9DA39DBA1B2E278B0093650D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9DA39DCE1B2E278B0093650D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9DA39DBA1B2E278B0093650D;
+					};
+					9DA39DD91B2E278B0093650D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9DA39DBA1B2E278B0093650D;
+					};
+				};
+			};
+			buildConfigurationList = 9DA39DB61B2E278B0093650D /* Build configuration list for PBXProject "AndroidForiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA39DB21B2E278B0093650D;
+			productRefGroup = 9DA39DBC1B2E278B0093650D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA39DBA1B2E278B0093650D /* AndroidForiOS */,
+				9DA39DCE1B2E278B0093650D /* AndroidForiOSTests */,
+				9DA39DD91B2E278B0093650D /* AndroidForiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA39DB91B2E278B0093650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA39DC91B2E278B0093650D /* LaunchScreen.storyboard in Resources */,
+				E12ACFBE1B66F37C0058B94D /* Blue.json in Resources */,
+				9DA39DC61B2E278B0093650D /* Assets.xcassets in Resources */,
+				E12ACFC01B66F37C0058B94D /* Red.json in Resources */,
+				9DA39DC41B2E278B0093650D /* Main.storyboard in Resources */,
+				E12ACFBF1B66F37C0058B94D /* Orange.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DCD1B2E278B0093650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DD81B2E278B0093650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA39DB71B2E278B0093650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA39DFD1B2E2D640093650D /* Trip.swift in Sources */,
+				9DA39DFB1B2E2D580093650D /* TripList.swift in Sources */,
+				E12ACFB51B66E24A0058B94D /* TripListTableViewController.swift in Sources */,
+				9DA39DFF1B2E2D760093650D /* Prediction.swift in Sources */,
+				9DA39E011B2E3B080093650D /* DataManager.swift in Sources */,
+				E12ACFB71B66E4CA0058B94D /* SubwayTripTableViewCell.swift in Sources */,
+				E12ACFFE1B67055A0058B94D /* UIViewControllerColors.swift in Sources */,
+				9DA8A9131B685D75001AED57 /* TripDetailHeaderView.swift in Sources */,
+				E12ACFB91B66E7D80058B94D /* TripDetailTableViewController.swift in Sources */,
+				9DA39DF51B2E28D00093650D /* AppDelegate.swift in Sources */,
+				9DA39DF91B2E292C0093650D /* SubwayListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DCB1B2E278B0093650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA39DD41B2E278B0093650D /* AndroidForiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA39DD61B2E278B0093650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA39DDF1B2E278B0093650D /* AndroidForiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DA39DD11B2E278B0093650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA39DBA1B2E278B0093650D /* AndroidForiOS */;
+			targetProxy = 9DA39DD01B2E278B0093650D /* PBXContainerItemProxy */;
+		};
+		9DA39DDC1B2E278B0093650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA39DBA1B2E278B0093650D /* AndroidForiOS */;
+			targetProxy = 9DA39DDB1B2E278B0093650D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DA39DC21B2E278B0093650D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA39DC31B2E278B0093650D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA39DC71B2E278B0093650D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA39DC81B2E278B0093650D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA39DE11B2E278B0093650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA39DE21B2E278B0093650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA39DE41B2E278B0093650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AndroidForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DA39DE51B2E278B0093650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AndroidForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DA39DE71B2E278B0093650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndroidForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidForiOS.app/AndroidForiOS";
+			};
+			name = Debug;
+		};
+		9DA39DE81B2E278B0093650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndroidForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidForiOS.app/AndroidForiOS";
+			};
+			name = Release;
+		};
+		9DA39DEA1B2E278B0093650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndroidForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndroidForiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DA39DEB1B2E278B0093650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndroidForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbarne.AndroidForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndroidForiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA39DB61B2E278B0093650D /* Build configuration list for PBXProject "AndroidForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA39DE11B2E278B0093650D /* Debug */,
+				9DA39DE21B2E278B0093650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA39DE31B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA39DE41B2E278B0093650D /* Debug */,
+				9DA39DE51B2E278B0093650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA39DE61B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA39DE71B2E278B0093650D /* Debug */,
+				9DA39DE81B2E278B0093650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA39DE91B2E278B0093650D /* Build configuration list for PBXNativeTarget "AndroidForiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA39DEA1B2E278B0093650D /* Debug */,
+				9DA39DEB1B2E278B0093650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA39DB31B2E278B0093650D /* Project object */;
+}

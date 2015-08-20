@@ -1,0 +1,24 @@
+<ViewFlipper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_subway_trips_viewFlipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidforios.app.SubwayTripList" >
+
+    <ProgressBar
+        android:id="@+id/fragment_subway_trips_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100dp"
+        android:layout_gravity="center"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:indeterminate="true" />
+
+    <ListView
+        android:id="@+id/fragment_subway_trips_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</ViewFlipper>

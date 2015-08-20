@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="Button.Text">@android:color/white</color>-->
+    <!--<color name="Button.Background">@color/Material.Red</color>-->
+    <!--<color name="Button.Selected">@color/Material.Red.Accent</color>-->
+
+    <color name="Header.Background">#333</color>
+
+    <!-- From Android Design Guidelines: http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <color name="Material.Red">#F44336</color>
+    <color name="Material.Red.Dark">#B71C1C</color>
+    <color name="Material.Red.Accent">#FF1744</color>
+
+    <color name="Material.Blue">#2196F3</color>
+    <color name="Material.Blue.Dark">#0D47A1</color>
+    <color name="Material.Blue.Accent">#2979FF</color>
+
+    <color name="Material.Orange">#FF5722</color>
+    <color name="Material.Orange.Dark">#BF360C</color>
+    <color name="Material.Orange.Accent">#FF3D00</color>
+
+    <color name="Material.White">#fff</color>
+
+    <color name="LineType.Red">@color/Material.Red</color>
+    <color name="LineType.Orange">@color/Material.Orange</color>
+    <color name="LineType.Blue">@color/Material.Blue</color>
+
+</resources>

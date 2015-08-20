@@ -1,0 +1,657 @@
+{
+  "TripList": {
+    "CurrentTime": 1395414791,
+    "Line": "Orange",
+    "Trips": [
+      {
+        "TripID": "O9861CC1E",
+        "Destination": "Oak Grove",
+        "Predictions": [
+          {
+            "StopID": "70001",
+            "Stop": "Forest Hills",
+            "Seconds": 365
+          },
+          {
+            "StopID": "70003",
+            "Stop": "Green Street",
+            "Seconds": 458
+          },
+          {
+            "StopID": "70005",
+            "Stop": "Stony Brook",
+            "Seconds": 555
+          },
+          {
+            "StopID": "70007",
+            "Stop": "Jackson Square",
+            "Seconds": 663
+          },
+          {
+            "StopID": "70009",
+            "Stop": "Roxbury Crossing",
+            "Seconds": 767
+          },
+          {
+            "StopID": "70011",
+            "Stop": "Ruggles",
+            "Seconds": 857
+          },
+          {
+            "StopID": "70013",
+            "Stop": "Mass Ave",
+            "Seconds": 948
+          },
+          {
+            "StopID": "70015",
+            "Stop": "Back Bay",
+            "Seconds": 1086
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CC52",
+        "Destination": "Oak Grove",
+        "Predictions": [
+          {
+            "StopID": "70001",
+            "Stop": "Forest Hills",
+            "Seconds": 834
+          },
+          {
+            "StopID": "70003",
+            "Stop": "Green Street",
+            "Seconds": 927
+          },
+          {
+            "StopID": "70005",
+            "Stop": "Stony Brook",
+            "Seconds": 1024
+          },
+          {
+            "StopID": "70007",
+            "Stop": "Jackson Square",
+            "Seconds": 1132
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CB9C",
+        "Destination": "Forest Hills",
+        "Predictions": [
+          {
+            "StopID": "70036",
+            "Stop": "Oak Grove",
+            "Seconds": 549
+          },
+          {
+            "StopID": "70034",
+            "Stop": "Malden Center",
+            "Seconds": 653
+          },
+          {
+            "StopID": "70032",
+            "Stop": "Wellington",
+            "Seconds": 872
+          },
+          {
+            "StopID": "70030",
+            "Stop": "Sullivan",
+            "Seconds": 1172
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CB9B",
+        "Destination": "Oak Grove",
+        "Position": {
+          "Timestamp": 1395414755,
+          "Train": "1285",
+          "Lat": 42.3979,
+          "Long": -71.07722,
+          "Heading": 5
+        },
+        "Predictions": [
+          {
+            "StopID": "70033",
+            "Stop": "Wellington",
+            "Seconds": -2
+          },
+          {
+            "StopID": "70035",
+            "Stop": "Malden Center",
+            "Seconds": 212
+          },
+          {
+            "StopID": "70036",
+            "Stop": "Oak Grove",
+            "Seconds": 352
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CBAF",
+        "Destination": "Forest Hills",
+        "Predictions": [
+          {
+            "StopID": "70036",
+            "Stop": "Oak Grove",
+            "Seconds": 995
+          },
+          {
+            "StopID": "70034",
+            "Stop": "Malden Center",
+            "Seconds": 1099
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CC1D",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414745,
+          "Train": "1314",
+          "Lat": 42.31678,
+          "Long": -71.10459,
+          "Heading": 205
+        },
+        "Predictions": [
+          {
+            "StopID": "70002",
+            "Stop": "Green Street",
+            "Seconds": 44
+          },
+          {
+            "StopID": "70001",
+            "Stop": "Forest Hills",
+            "Seconds": 201
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CBAE",
+        "Destination": "Oak Grove",
+        "Position": {
+          "Timestamp": 1395414765,
+          "Train": "1223",
+          "Lat": 42.36514,
+          "Long": -71.05999,
+          "Heading": 330
+        },
+        "Predictions": [
+          {
+            "StopID": "70029",
+            "Stop": "Community College",
+            "Seconds": 103
+          },
+          {
+            "StopID": "70031",
+            "Stop": "Sullivan",
+            "Seconds": 226
+          },
+          {
+            "StopID": "70033",
+            "Stop": "Wellington",
+            "Seconds": 444
+          },
+          {
+            "StopID": "70035",
+            "Stop": "Malden Center",
+            "Seconds": 658
+          },
+          {
+            "StopID": "70036",
+            "Stop": "Oak Grove",
+            "Seconds": 798
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CC51",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414774,
+          "Train": "1303",
+          "Lat": 42.34367,
+          "Long": -71.08084,
+          "Heading": 220
+        },
+        "Predictions": [
+          {
+            "StopID": "70012",
+            "Stop": "Mass Ave",
+            "Seconds": 12
+          },
+          {
+            "StopID": "70010",
+            "Stop": "Ruggles",
+            "Seconds": 100
+          },
+          {
+            "StopID": "70008",
+            "Stop": "Roxbury Crossing",
+            "Seconds": 203
+          },
+          {
+            "StopID": "70006",
+            "Stop": "Jackson Square",
+            "Seconds": 303
+          },
+          {
+            "StopID": "70004",
+            "Stop": "Stony Brook",
+            "Seconds": 423
+          },
+          {
+            "StopID": "70002",
+            "Stop": "Green Street",
+            "Seconds": 513
+          },
+          {
+            "StopID": "70001",
+            "Stop": "Forest Hills",
+            "Seconds": 670
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CB36",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414713,
+          "Train": "1298",
+          "Lat": 42.39209,
+          "Long": -71.07735,
+          "Heading": 175
+        },
+        "Predictions": [
+          {
+            "StopID": "70030",
+            "Stop": "Sullivan",
+            "Seconds": 45
+          },
+          {
+            "StopID": "70028",
+            "Stop": "Community College",
+            "Seconds": 178
+          },
+          {
+            "StopID": "70026",
+            "Stop": "North Station",
+            "Seconds": 323
+          },
+          {
+            "StopID": "70024",
+            "Stop": "Haymarket",
+            "Seconds": 410
+          },
+          {
+            "StopID": "70022",
+            "Stop": "State Street",
+            "Seconds": 500
+          },
+          {
+            "StopID": "70020",
+            "Stop": "Downtown Crossing",
+            "Seconds": 587
+          },
+          {
+            "StopID": "70018",
+            "Stop": "Chinatown",
+            "Seconds": 679
+          },
+          {
+            "StopID": "70016",
+            "Stop": "Tufts Medical",
+            "Seconds": 732
+          },
+          {
+            "StopID": "70014",
+            "Stop": "Back Bay",
+            "Seconds": 856
+          },
+          {
+            "StopID": "70012",
+            "Stop": "Mass Ave",
+            "Seconds": 1009
+          },
+          {
+            "StopID": "70010",
+            "Stop": "Ruggles",
+            "Seconds": 1097
+          },
+          {
+            "StopID": "70008",
+            "Stop": "Roxbury Crossing",
+            "Seconds": 1200
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CC09",
+        "Destination": "Oak Grove",
+        "Position": {
+          "Timestamp": 1395414769,
+          "Train": "1245",
+          "Lat": 42.3223,
+          "Long": -71.10047,
+          "Heading": 25
+        },
+        "Predictions": [
+          {
+            "StopID": "70007",
+            "Stop": "Jackson Square",
+            "Seconds": -8
+          },
+          {
+            "StopID": "70009",
+            "Stop": "Roxbury Crossing",
+            "Seconds": 96
+          },
+          {
+            "StopID": "70011",
+            "Stop": "Ruggles",
+            "Seconds": 186
+          },
+          {
+            "StopID": "70013",
+            "Stop": "Mass Ave",
+            "Seconds": 277
+          },
+          {
+            "StopID": "70015",
+            "Stop": "Back Bay",
+            "Seconds": 415
+          },
+          {
+            "StopID": "70017",
+            "Stop": "Tufts Medical",
+            "Seconds": 549
+          },
+          {
+            "StopID": "70019",
+            "Stop": "Chinatown",
+            "Seconds": 635
+          },
+          {
+            "StopID": "70021",
+            "Stop": "Downtown Crossing",
+            "Seconds": 711
+          },
+          {
+            "StopID": "70023",
+            "Stop": "State Street",
+            "Seconds": 799
+          },
+          {
+            "StopID": "70025",
+            "Stop": "Haymarket",
+            "Seconds": 870
+          },
+          {
+            "StopID": "70027",
+            "Stop": "North Station",
+            "Seconds": 1072
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CBD4",
+        "Destination": "Oak Grove",
+        "Position": {
+          "Timestamp": 1395414764,
+          "Train": "1261",
+          "Lat": 42.34418,
+          "Long": -71.08005,
+          "Heading": 40
+        },
+        "Predictions": [
+          {
+            "StopID": "70015",
+            "Stop": "Back Bay",
+            "Seconds": 36
+          },
+          {
+            "StopID": "70017",
+            "Stop": "Tufts Medical",
+            "Seconds": 170
+          },
+          {
+            "StopID": "70019",
+            "Stop": "Chinatown",
+            "Seconds": 256
+          },
+          {
+            "StopID": "70021",
+            "Stop": "Downtown Crossing",
+            "Seconds": 332
+          },
+          {
+            "StopID": "70023",
+            "Stop": "State Street",
+            "Seconds": 420
+          },
+          {
+            "StopID": "70025",
+            "Stop": "Haymarket",
+            "Seconds": 491
+          },
+          {
+            "StopID": "70027",
+            "Stop": "North Station",
+            "Seconds": 693
+          },
+          {
+            "StopID": "70029",
+            "Stop": "Community College",
+            "Seconds": 822
+          },
+          {
+            "StopID": "70031",
+            "Stop": "Sullivan",
+            "Seconds": 945
+          },
+          {
+            "StopID": "70033",
+            "Stop": "Wellington",
+            "Seconds": 1163
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CB62",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414723,
+          "Train": "1301",
+          "Lat": 42.41595,
+          "Long": -71.077,
+          "Heading": 177
+        },
+        "Predictions": [
+          {
+            "StopID": "70032",
+            "Stop": "Wellington",
+            "Seconds": 40
+          },
+          {
+            "StopID": "70030",
+            "Stop": "Sullivan",
+            "Seconds": 340
+          },
+          {
+            "StopID": "70028",
+            "Stop": "Community College",
+            "Seconds": 473
+          },
+          {
+            "StopID": "70026",
+            "Stop": "North Station",
+            "Seconds": 618
+          },
+          {
+            "StopID": "70024",
+            "Stop": "Haymarket",
+            "Seconds": 705
+          },
+          {
+            "StopID": "70022",
+            "Stop": "State Street",
+            "Seconds": 795
+          },
+          {
+            "StopID": "70020",
+            "Stop": "Downtown Crossing",
+            "Seconds": 882
+          },
+          {
+            "StopID": "70018",
+            "Stop": "Chinatown",
+            "Seconds": 974
+          },
+          {
+            "StopID": "70016",
+            "Stop": "Tufts Medical",
+            "Seconds": 1027
+          },
+          {
+            "StopID": "70014",
+            "Stop": "Back Bay",
+            "Seconds": 1151
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CB7E",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414629,
+          "Train": "1228",
+          "Lat": 42.43772,
+          "Long": -71.0708,
+          "Heading": 5
+        },
+        "Predictions": [
+          {
+            "StopID": "70036",
+            "Stop": "Oak Grove",
+            "Seconds": 35
+          },
+          {
+            "StopID": "70034",
+            "Stop": "Malden Center",
+            "Seconds": 139
+          },
+          {
+            "StopID": "70032",
+            "Stop": "Wellington",
+            "Seconds": 358
+          },
+          {
+            "StopID": "70030",
+            "Stop": "Sullivan",
+            "Seconds": 658
+          },
+          {
+            "StopID": "70028",
+            "Stop": "Community College",
+            "Seconds": 791
+          },
+          {
+            "StopID": "70026",
+            "Stop": "North Station",
+            "Seconds": 936
+          },
+          {
+            "StopID": "70024",
+            "Stop": "Haymarket",
+            "Seconds": 1023
+          },
+          {
+            "StopID": "70022",
+            "Stop": "State Street",
+            "Seconds": 1113
+          },
+          {
+            "StopID": "70020",
+            "Stop": "Downtown Crossing",
+            "Seconds": 1200
+          }
+        ]
+      },
+      {
+        "TripID": "O9861CC80",
+        "Destination": "Forest Hills",
+        "Position": {
+          "Timestamp": 1395414774,
+          "Train": "1249",
+          "Lat": 42.36342,
+          "Long": -71.0583,
+          "Heading": 150
+        },
+        "Predictions": [
+          {
+            "StopID": "70024",
+            "Stop": "Haymarket",
+            "Seconds": 1
+          },
+          {
+            "StopID": "70022",
+            "Stop": "State Street",
+            "Seconds": 91
+          },
+          {
+            "StopID": "70020",
+            "Stop": "Downtown Crossing",
+            "Seconds": 178
+          },
+          {
+            "StopID": "70018",
+            "Stop": "Chinatown",
+            "Seconds": 270
+          },
+          {
+            "StopID": "70016",
+            "Stop": "Tufts Medical",
+            "Seconds": 323
+          },
+          {
+            "StopID": "70014",
+            "Stop": "Back Bay",
+            "Seconds": 447
+          },
+          {
+            "StopID": "70012",
+            "Stop": "Mass Ave",
+            "Seconds": 594
+          },
+          {
+            "StopID": "70010",
+            "Stop": "Ruggles",
+            "Seconds": 682
+          },
+          {
+            "StopID": "70008",
+            "Stop": "Roxbury Crossing",
+            "Seconds": 785
+          },
+          {
+            "StopID": "70006",
+            "Stop": "Jackson Square",
+            "Seconds": 885
+          },
+          {
+            "StopID": "70004",
+            "Stop": "Stony Brook",
+            "Seconds": 1005
+          },
+          {
+            "StopID": "70002",
+            "Stop": "Green Street",
+            "Seconds": 1095
+          }
+        ]
+      }
+    ]
+  }
+}

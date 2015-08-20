@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MBTASubwayListViewController">
+            <connections>
+                <outlet property="alertButton" destination="pRD-au-Xnw" id="DrO-eV-cHA"/>
+                <outlet property="tableView" destination="lTW-NQ-Ev9" id="EhF-ei-Nz8"/>
+                <outlet property="view" destination="5cm-Eg-1dP" id="ZQR-nF-z1J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5cm-Eg-1dP">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="lTW-NQ-Ev9">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="i96-gE-BNF"/>
+                        <outlet property="delegate" destination="-1" id="ykC-ws-rL4"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRD-au-Xnw">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ejj-sn-Y5P"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Hello World"/>
+                    <connections>
+                        <action selector="didPressAlertButton:" destination="-1" eventType="touchUpInside" id="aep-mz-xR3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lTW-NQ-Ev9" firstAttribute="top" secondItem="5cm-Eg-1dP" secondAttribute="top" id="Ndd-5I-XLo"/>
+                <constraint firstAttribute="trailing" secondItem="pRD-au-Xnw" secondAttribute="trailing" id="OnJ-tb-MUo"/>
+                <constraint firstItem="pRD-au-Xnw" firstAttribute="top" secondItem="lTW-NQ-Ev9" secondAttribute="bottom" id="e8l-sL-pZ7"/>
+                <constraint firstItem="pRD-au-Xnw" firstAttribute="leading" secondItem="5cm-Eg-1dP" secondAttribute="leading" id="hkW-ES-Hs8"/>
+                <constraint firstAttribute="bottom" secondItem="pRD-au-Xnw" secondAttribute="bottom" id="p4f-I9-hGZ"/>
+                <constraint firstItem="lTW-NQ-Ev9" firstAttribute="leading" secondItem="5cm-Eg-1dP" secondAttribute="leading" id="pKm-T6-e3L"/>
+                <constraint firstAttribute="centerX" secondItem="lTW-NQ-Ev9" secondAttribute="centerX" id="s5n-sx-MQl"/>
+                <constraint firstAttribute="centerX" secondItem="pRD-au-Xnw" secondAttribute="centerX" id="sng-YV-5Pb"/>
+                <constraint firstAttribute="trailing" secondItem="lTW-NQ-Ev9" secondAttribute="trailing" id="zOL-85-61h"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="294" y="283"/>
+        </view>
+    </objects>
+</document>

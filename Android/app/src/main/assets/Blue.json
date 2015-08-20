@@ -1,0 +1,389 @@
+{
+  "TripList": {
+    "CurrentTime": 1395414881,
+    "Line": "Blue",
+    "Trips": [
+      {
+        "TripID": "B98A393FA",
+        "Destination": "Bowdoin",
+        "Predictions": [
+          {
+            "StopID": "70060",
+            "Stop": "Wonderland",
+            "Seconds": 739
+          },
+          {
+            "StopID": "70057",
+            "Stop": "Revere Beach",
+            "Seconds": 775
+          },
+          {
+            "StopID": "70055",
+            "Stop": "Beachmont",
+            "Seconds": 889
+          },
+          {
+            "StopID": "70053",
+            "Stop": "Suffolk Downs",
+            "Seconds": 971
+          },
+          {
+            "StopID": "70051",
+            "Stop": "Orient Heights",
+            "Seconds": 1064
+          }
+        ]
+      },
+      {
+        "TripID": "B98A394D5",
+        "Destination": "Wonderland",
+        "Predictions": [
+          {
+            "StopID": "70038",
+            "Stop": "Bowdoin",
+            "Seconds": 1099
+          },
+          {
+            "StopID": "70040",
+            "Stop": "Government Center",
+            "Seconds": 1115
+          }
+        ]
+      },
+      {
+        "TripID": "B98A394D4",
+        "Destination": "Bowdoin",
+        "Position": {
+          "Timestamp": 1395414863,
+          "Train": "0741",
+          "Lat": 42.39514,
+          "Long": -70.99405,
+          "Heading": 210
+        },
+        "Predictions": [
+          {
+            "StopID": "70053",
+            "Stop": "Suffolk Downs",
+            "Seconds": 18
+          },
+          {
+            "StopID": "70051",
+            "Stop": "Orient Heights",
+            "Seconds": 111
+          },
+          {
+            "StopID": "70049",
+            "Stop": "Wood Island",
+            "Seconds": 267
+          },
+          {
+            "StopID": "70047",
+            "Stop": "Airport",
+            "Seconds": 359
+          },
+          {
+            "StopID": "70045",
+            "Stop": "Maverick",
+            "Seconds": 506
+          },
+          {
+            "StopID": "70043",
+            "Stop": "Aquarium",
+            "Seconds": 647
+          },
+          {
+            "StopID": "70041",
+            "Stop": "State Street",
+            "Seconds": 724
+          },
+          {
+            "StopID": "70039",
+            "Stop": "Government Center",
+            "Seconds": 806
+          },
+          {
+            "StopID": "70038",
+            "Stop": "Bowdoin",
+            "Seconds": 894
+          }
+        ]
+      },
+      {
+        "TripID": "B98A39491",
+        "Destination": "Wonderland",
+        "Predictions": [
+          {
+            "StopID": "70038",
+            "Stop": "Bowdoin",
+            "Seconds": 559
+          },
+          {
+            "StopID": "70040",
+            "Stop": "Government Center",
+            "Seconds": 575
+          },
+          {
+            "StopID": "70042",
+            "Stop": "State Street",
+            "Seconds": 666
+          },
+          {
+            "StopID": "70044",
+            "Stop": "Aquarium",
+            "Seconds": 753
+          },
+          {
+            "StopID": "70046",
+            "Stop": "Maverick",
+            "Seconds": 896
+          },
+          {
+            "StopID": "70048",
+            "Stop": "Airport",
+            "Seconds": 1030
+          },
+          {
+            "StopID": "70050",
+            "Stop": "Wood Island",
+            "Seconds": 1132
+          }
+        ]
+      },
+      {
+        "TripID": "B98A39490",
+        "Destination": "Bowdoin",
+        "Position": {
+          "Timestamp": 1395414855,
+          "Train": "0704",
+          "Lat": 42.36923,
+          "Long": -71.03944,
+          "Heading": 215
+        },
+        "Predictions": [
+          {
+            "StopID": "70043",
+            "Stop": "Aquarium",
+            "Seconds": 115
+          },
+          {
+            "StopID": "70041",
+            "Stop": "State Street",
+            "Seconds": 192
+          },
+          {
+            "StopID": "70039",
+            "Stop": "Government Center",
+            "Seconds": 274
+          },
+          {
+            "StopID": "70038",
+            "Stop": "Bowdoin",
+            "Seconds": 362
+          }
+        ]
+      },
+      {
+        "TripID": "B98A393D0",
+        "Destination": "Bowdoin",
+        "Position": {
+          "Timestamp": 1395414829,
+          "Train": "0756",
+          "Lat": 42.41352,
+          "Long": -70.99167,
+          "Heading": 200
+        },
+        "Predictions": [
+          {
+            "StopID": "70060",
+            "Stop": "Wonderland",
+            "Seconds": 199
+          },
+          {
+            "StopID": "70057",
+            "Stop": "Revere Beach",
+            "Seconds": 235
+          },
+          {
+            "StopID": "70055",
+            "Stop": "Beachmont",
+            "Seconds": 349
+          },
+          {
+            "StopID": "70053",
+            "Stop": "Suffolk Downs",
+            "Seconds": 431
+          },
+          {
+            "StopID": "70051",
+            "Stop": "Orient Heights",
+            "Seconds": 524
+          },
+          {
+            "StopID": "70049",
+            "Stop": "Wood Island",
+            "Seconds": 680
+          },
+          {
+            "StopID": "70047",
+            "Stop": "Airport",
+            "Seconds": 772
+          },
+          {
+            "StopID": "70045",
+            "Stop": "Maverick",
+            "Seconds": 919
+          },
+          {
+            "StopID": "70043",
+            "Stop": "Aquarium",
+            "Seconds": 1060
+          },
+          {
+            "StopID": "70041",
+            "Stop": "State Street",
+            "Seconds": 1137
+          }
+        ]
+      },
+      {
+        "TripID": "B98A393F9",
+        "Destination": "Wonderland",
+        "Position": {
+          "Timestamp": 1395414868,
+          "Train": "0748",
+          "Lat": 42.39856,
+          "Long": -70.99172,
+          "Heading": 15
+        },
+        "Predictions": [
+          {
+            "StopID": "70058",
+            "Stop": "Revere Beach",
+            "Seconds": 65
+          },
+          {
+            "StopID": "70060",
+            "Stop": "Wonderland",
+            "Seconds": 165
+          }
+        ]
+      },
+      {
+        "TripID": "B98A3943D",
+        "Destination": "Wonderland",
+        "Position": {
+          "Timestamp": 1395414867,
+          "Train": "0789",
+          "Lat": 42.37435,
+          "Long": -71.03017,
+          "Heading": 45
+        },
+        "Predictions": [
+          {
+            "StopID": "70050",
+            "Stop": "Wood Island",
+            "Seconds": 88
+          },
+          {
+            "StopID": "70052",
+            "Stop": "Orient Heights",
+            "Seconds": 239
+          },
+          {
+            "StopID": "70054",
+            "Stop": "Suffolk Downs",
+            "Seconds": 338
+          },
+          {
+            "StopID": "70056",
+            "Stop": "Beachmont",
+            "Seconds": 427
+          },
+          {
+            "StopID": "70058",
+            "Stop": "Revere Beach",
+            "Seconds": 547
+          },
+          {
+            "StopID": "70060",
+            "Stop": "Wonderland",
+            "Seconds": 647
+          }
+        ]
+      },
+      {
+        "TripID": "B98A39469",
+        "Destination": "Wonderland",
+        "Position": {
+          "Timestamp": 1395414852,
+          "Train": "0755",
+          "Lat": 42.36115,
+          "Long": -71.06209,
+          "Heading": 105
+        },
+        "Predictions": [
+          {
+            "StopID": "70038",
+            "Stop": "Bowdoin",
+            "Seconds": 19
+          },
+          {
+            "StopID": "70040",
+            "Stop": "Government Center",
+            "Seconds": 35
+          },
+          {
+            "StopID": "70042",
+            "Stop": "State Street",
+            "Seconds": 126
+          },
+          {
+            "StopID": "70044",
+            "Stop": "Aquarium",
+            "Seconds": 213
+          },
+          {
+            "StopID": "70046",
+            "Stop": "Maverick",
+            "Seconds": 356
+          },
+          {
+            "StopID": "70048",
+            "Stop": "Airport",
+            "Seconds": 490
+          },
+          {
+            "StopID": "70050",
+            "Stop": "Wood Island",
+            "Seconds": 592
+          },
+          {
+            "StopID": "70052",
+            "Stop": "Orient Heights",
+            "Seconds": 743
+          },
+          {
+            "StopID": "70054",
+            "Stop": "Suffolk Downs",
+            "Seconds": 842
+          },
+          {
+            "StopID": "70056",
+            "Stop": "Beachmont",
+            "Seconds": 931
+          },
+          {
+            "StopID": "70058",
+            "Stop": "Revere Beach",
+            "Seconds": 1051
+          },
+          {
+            "StopID": "70060",
+            "Stop": "Wonderland",
+            "Seconds": 1151
+          }
+        ]
+      }
+    ]
+  }
+}

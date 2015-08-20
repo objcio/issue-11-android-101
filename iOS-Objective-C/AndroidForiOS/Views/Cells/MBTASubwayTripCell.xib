@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="MBTASubwayTripCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2U-dg-mk7" userLabel="Top Label Container">
+                        <rect key="frame" x="8" y="12" width="304" height="25"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DestinationLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yl7-ny-mXm" userLabel="Destination Label">
+                                <rect key="frame" x="8" y="2" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="749" misplaced="YES" text="TrainName" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-js-2WM" userLabel="Train Name">
+                                <rect key="frame" x="214" y="2" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Mvd-js-2WM" secondAttribute="centerY" id="7j8-ts-hUD"/>
+                            <constraint firstAttribute="centerY" secondItem="yl7-ny-mXm" secondAttribute="centerY" id="ALj-sr-rnJ"/>
+                            <constraint firstAttribute="bottom" secondItem="yl7-ny-mXm" secondAttribute="bottom" constant="2" id="Ick-Pe-Pye"/>
+                            <constraint firstItem="yl7-ny-mXm" firstAttribute="top" secondItem="F2U-dg-mk7" secondAttribute="top" constant="2" id="NnM-Ci-Ebp"/>
+                            <constraint firstItem="yl7-ny-mXm" firstAttribute="leading" secondItem="F2U-dg-mk7" secondAttribute="leading" constant="8" id="vEf-KM-PDO"/>
+                            <constraint firstItem="Mvd-js-2WM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yl7-ny-mXm" secondAttribute="trailing" id="x5G-iv-Yce"/>
+                            <constraint firstAttribute="trailing" secondItem="Mvd-js-2WM" secondAttribute="trailing" constant="8" id="z6r-J0-8BU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" misplaced="YES" text="Timestamp" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUR-we-XF8" userLabel="Timestamp">
+                        <rect key="frame" x="16" y="44" width="86" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="F2U-dg-mk7" secondAttribute="trailing" id="0uH-bU-7P9"/>
+                    <constraint firstItem="F2U-dg-mk7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="1c9-zS-qeX"/>
+                    <constraint firstItem="NUR-we-XF8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="6Yc-y9-iE0"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="NUR-we-XF8" secondAttribute="bottom" constant="4" id="C8q-A2-snJ"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="NUR-we-XF8" secondAttribute="trailing" constant="8" id="dBC-WK-ufx"/>
+                    <constraint firstItem="NUR-we-XF8" firstAttribute="top" secondItem="F2U-dg-mk7" secondAttribute="bottom" constant="8" id="jNE-EI-M4X"/>
+                    <constraint firstItem="F2U-dg-mk7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="omO-DO-ck9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="destinationLabel" destination="yl7-ny-mXm" id="6kx-3p-yKD"/>
+                <outlet property="timeStampLabel" destination="NUR-we-XF8" id="are-Ef-ioJ"/>
+                <outlet property="timestampTopSpacingConstraint" destination="jNE-EI-M4X" id="dch-2L-l2Z"/>
+                <outlet property="trainNameLabel" destination="Mvd-js-2WM" id="lrs-a7-4vO"/>
+            </connections>
+            <point key="canvasLocation" x="275" y="207"/>
+        </tableViewCell>
+    </objects>
+</document>

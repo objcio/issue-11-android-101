@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidForiOS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="application_description">This application demonstrates the correlation between iOS and Android development using Subway data provided by the MBTA.</string>
+
+</resources>
